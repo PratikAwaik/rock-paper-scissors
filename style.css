@@ -1,0 +1,86 @@
+:root {
+    --font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: red;
+}
+
+#start {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#ask {
+    margin-top: 50px;
+    margin-left: 27%;
+    font-family: var(--font-family);
+}
+
+#rock, #paper, #scissors {
+    width: 90px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 35%;
+    font-family: var(--font-family);
+}
+
+#submit {
+    margin-top: 20px;
+    margin-left: 47%;
+    width: 80px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#submit:hover, #start:hover, #rock:hover, #paper:hover, #scissors:hover {
+    cursor: pointer;
+    background-color: #6B5B95;
+}
+
+#player-choice {
+    margin-left: 47%;
+    margin-top: -38px;
+    color: blue;
+}
+
+#computer-choice {
+    margin-left: 51%;
+    margin-top: -38px;
+    color: blue;
+}
+
+#result {
+    margin-top: 40px;
+    color: #339900;
+} 
