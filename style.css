@@ -42,12 +42,6 @@ h1 {
     outline: none;
 }
 
-h2 {
-    margin-top: 50px;
-    margin-left: 35%;
-    font-family: var(--font-family);
-}
-
 #submit {
     margin-top: 20px;
     margin-left: 47%;
@@ -68,15 +62,7 @@ h2 {
     background-color: #6B5B95;
 }
 
-#player-choice {
-    margin-left: 47%;
-    margin-top: -38px;
-    color: blue;
-}
-
-#computer-choice {
-    margin-left: 51%;
-    margin-top: -38px;
+#player-choice, #computer-choice {
     color: blue;
 }
 
@@ -84,3 +70,9 @@ h2 {
     margin-top: 40px;
     color: #339900;
 } 
+
+.chose {
+    margin-top: 50px;
+    margin-left: 35%;
+    font-family: var(--font-family);
+}
