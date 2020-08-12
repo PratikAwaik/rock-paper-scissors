@@ -5,13 +5,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Want to play some Rock Paper Scissors?</h1>
-        <h2 id="ask">What's your choice? <button id="rock" name="rock" value="rock" onclick="game(this);">Rock</button> 
-            <button id="paper" name="paper" value="paper" onclick="game(this);">Paper</button> 
-            <button id="scissors" name="scissors" value="scissors" onclick="game(this);">Scissors</button></h2>
-        <h2 class="chose">You chose: <span id="player-choice"></span></h2>
-        <h2 class="chose">Computer chose: <span id="computer-choice"></span></h2>
-        <h1 id="result"></h1>
+        <h1>Rock Paper Scissors</h1>
+        <div id="player">
+            <img src="images/rock.png" id="rock" class="player-image">
+            <img src="images/paper.png" id="paper" class="player-image">
+            <img src="images/scissors.png" id="scissors" class="player-image">
+        </div>
+        <hr>
+        <div id="computer"> 
+            <img src="images/rock.png" id="pcrock" class="computer-image">
+            <img src="images/paper.png" id="pcpaper" class="computer-image">
+            <img src="images/scissors.png" id="pcscissors" class="computer-image">
+        </div> 
+        <hr>
+        <div id="scores">
+            <span id="result"></span>
+            <h2>Rounds: <span id="rounds"></span></h2>
+            <h2>Your Score: <span id="player-score"></span></h2>
+            <h2>Computer Score: <span id="computer-score"></span></h2>
+            <h2>Ties: <span id="ties"></span></h2>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
