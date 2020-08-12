@@ -10,7 +10,8 @@ h1 {
 }
 
 #player {
-    margin: 20px 0 20px 380px;
+   margin: 20px auto 20px auto; 
+   width: 50%;
 } 
 
 .player-image {
@@ -25,7 +26,8 @@ h1 {
 }
 
 #computer {
-    margin-left: 440px;
+    margin: 0 auto 0 auto;
+    width: 40%;
 }
 
 .computer-image {
