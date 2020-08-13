@@ -9,9 +9,9 @@ h1 {
     font-size: 40px;
 }
 
-#player {
-   margin: 20px auto 20px auto; 
-   width: 28%;
+#player, #computer {
+   display: flex;
+   justify-content: center;
 } 
 
 .player-image {
@@ -23,11 +23,6 @@ h1 {
 .player-image:hover {
     cursor: pointer;
     transform: scale(1.2);
-}
-
-#computer {
-    margin: 0 auto 0 auto;
-    width: 28%;
 }
 
 .computer-image {
