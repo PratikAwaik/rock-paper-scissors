@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+#player {
+    display: flex;
+    margin: 50px auto;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.player-choice {
+    height: 180px;
+    width: 180px;
+}
+
+.player-choice:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#computer {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.computer-choice {
+    height: 150px;
+    width: 150px;
+}
+
+#winner-str, #rounds, #player-score, #computer-score, #ties {
+    font-size: xx-large;
+    text-align: center;
+    font-family: monospace;
+}
